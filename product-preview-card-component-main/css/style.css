@@ -90,20 +90,20 @@ button:hover {
   transition: ease-in-out 0.3s;
 }
 
-@media screen and (max-width:375px) {
-    .card{
-      height: 100%;
-      padding: 2px 4px;
-      flex-direction: column;
-    }
-    .perfume-img {
-      background-image: url('../images/image-product-mobile.jpg');
-    }
-    .img-desc h3{
-      font-size: 28px;
-      font-weight: 700;
-    }
-    .img-desc h3 br{
-      display: none;
-    }
+@media screen and (max-width: 375px) {
+  .card {
+    height: 100%;
+    padding: 2px 4px;
+    flex-direction: column;
+  }
+  .perfume-img {
+    background-image: url("../images/image-product-mobile.jpg");
+  }
+  .img-desc h3 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .img-desc h3 br {
+    display: none;
+  }
 }
